@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Unit 4 Review</title>
+  <link href="mystyle.css" rel="stylesheet" type="text/css" />
+  <link href="faviconc.png" rel="icon" type="image/png">
+</head>
+
+<body>
+  <!--Enter your prebuild Banner  and Headings School, Class, Unit Review 1, Date, Name, Favicon and Title-->
+  <div class="banner">
+    <b>Thomas A. Edison CTE HS</b>
+    <img src="faviconc.png" alt="Cesar's logo" id="logo">
+    <h1>Web Development</h1>
+    <h1>Code.org Unit 1 - 4 Review</h1>
+    <h1>Date: 02/27/2024</h1>
+    <h1>Cesar Morales</h1>
+    <div class="menu">Menu
+      <!--Later we will enter links to other pages-->
+      <a href="index.html">Home</a>
+      <a href="unit1.html">Unit 1</a>
+      <a href="unit2.html">Unit 2</a>
+      <a href="unit3.html">Unit 3</a>
+    </div>
+  </div>
+
+  <div id="top">
+    <h2>Unit 4 Review</h2>
+  </div>
+
+  <div id="right">
+    <div class="drop">
+    <b>Lesson 1</b>
+    <h4>Summary</h4>
+    <p>This lesson helps us understand how variables and the storage of data works.</p>
+    <h4>Check for Understanding</h4>
+    <!-- Q&A -->
+    <b>Multiple Choice: What is the Value?</b>
+    <h4>What will the value of score be at the end of the program?</h4>
+    <h1>
+      <br>var score
+      <br>score = 3
+      <br>score = score + 1
+      <br>score = "The score is: " + score
+    </h1>
+      <b>Answer</b>
+    <h5>The score is: 4</h5>
+    <hr>
+    </div>
+    <div class="drop">
+    <b>Lesson 2</b>
+    <h4>Summary</h4>
+      <p>This lesson teaches us how variables are actually used in an app and how we can use certain pieces of code to make and store variables</p>
+    <h4>Check for Understanding</h4>
+    <!-- Q&A -->
+    <b>Updating Variables</b>
+    <h4>Explain in your own words the process of creating and updating a variable. How does the Counter Pattern with Event work?</h4>
+      <b>Answer</b>
+    <h5>When creating a variable, you use "var" and can assign a value to it. Then you can update it depending on an event that happens, sometimes by using an expression. In this case, Counter Pattern works by assigning the value of 0 to the newly created variable "myVar". Then, they made it so that when a button is clicked, it adds 1 to the current value of myVar.</h5>
+    <hr>
+    </div>
+    <div class="drop">
+    <b>Lesson 3</b>
+      <h4>Summary</h4>
+      <p>This lesson expands upon the last topic, teaching us how we can use variables in our code to print a message into the console.</p>
+    <h4>Check for Understanding</h4>
+    <!-- Q&A -->
+    <b>Practice Question</b>
+    <h4>The program below is run. Which of the following COULD NOT possibly be the output from that program? </h4>
+    <h1><br>a = RANDOM(1,10)
+    <br>b = RANDOM(10,20)
+    <br>DISPLAY(a)
+    <br>DISPLAY(a)
+    <br>DISPLAY(b)
+    <br>DISPLAY(b)</h1>
+    <b>Answer</b>
+    <h5>10<br>5<br>10<br>5</h5>
+    <hr>
+    </div>
+    <div class="drop">
+    <b>Lesson 4</b>
+    <h4>Summary</h4>
+    <p>This lesson takes all of what we learned so far and tells us to make a program using variables as storage and to display it in the UI.</p>
+    <img src="https://i.gyazo.com/049fd36bc0b81eeffc082f9cac5d84e2.png" width="750px">
+    </div>
+    <div class="drop">
+    <b>Lesson 5</b>
+    <h4>Summary</h4>
+      <p>This lesson introduces us to conditionals and certain operators we might see in programs</p>
+    <h4>Check for Understanding</h4>
+    <!-- Q&A -->
+    <b>Conditionals</b>
+    <h4>Can a computer evaluate an expression to something between true and false? Can you write an expression to deal with a "maybe" answer?</h4>
+      <b>Answer</b>
+    <h5>No, computers cannot evaluate something between true and false. Those are the only two options.</h5>
+    <hr>
+    </div>
+    <div class="drop">
+    <b>Lesson 6</b>
+    <h4>Summary</h4>
+    <p>This lesson shows us how we can use conditionals in "if", "if-else", and "if-else-if" statements to produce a certain result</p>
+    <h4>Check for Understanding</h4>
+    <!-- Q&A -->
+      <b>Using if-else-if</b>
+      <h4>When creating an if-else-if statement you should always make your first condition the most specific. Write a short paragraph responding to the questions below.
+      <br>What does it mean to put the most specific case first?
+      <br>Why is it important to put the most specific case first? What types of errors does it help avoid?</h4>
+      <b>Answer</b>
+      <h5>The most specific case first means to put the case that would be the most difficult for the user to achieve. In the lemon squeeze game, the size 15 was first because it was the highest amount so it wouldn't activate early.  It's important to put the most specific case first because otherwise if the first boolean is true, it will say true even if another boolean after it is also true. In the temperature example, 86 was a high temperature, and you would've wanted it to say "its hot", but since 86 is already higher than 60, it would say "it's cool", even if the other expressions were true, because 60 was first.</h5>
+    <hr>
+    </div>
+    <div class="drop">
+    <b>Lesson 7</b>
+    <h4>Summary</h4>
+    <p>This lesson begins to get more complex and shows us how variables, conditionals, and if statements can be used to create an actual functioning app, such as a tic-tac-toe app.</p>
+    <h4>Check for Understanding</h4>
+    <!-- Q&A -->
+      <b>AP Pseudocode: Conditionals</b>
+      <h4>The program below asks a user to type in a number and then will output a message. What number will a user need to input for the message "COLD" to be displayed?</h4>
+      <h1>
+        <br>number = INPUT()
+        <br><br>IF (number >= 10){
+        <br>IF (number <= 20){DISPLAY("MEDIUM")}
+        <br>ELSE{DISPLAY("HOT")}
+        <br>}
+        <br>ELSE{DISPLAY("COLD")}
+      </h1>
+      <b>Answer</b>
+      <h5>The user will need to input the number 10</h5>
+      <hr>
+    </div>
+    <div class="drop">
+    <b>Lesson 8</b>
+    <h4>Summary</h4>
+    <p>This lesson makes us use conditionals in order to make a working ticket generator app, teaching us how we can effectively use them.</p>
+    <img src="https://i.gyazo.com/c3ee356ec366f0e99b04fa82ab1c6e19.png" width="750px">
+    </div>
+    <div class="drop">
+    <b>Lesson 9</b>
+    <h4>Summary</h4>
+    <p>This lesson introduces us to functions, and how they can be used in code to make it easier to write and read.</p>
+    <h4>Check for Understanding</h4>
+    <!-- Q&A -->
+      <b>Benefits of Creating Functions</b>
+      <h4>In your own words describe the benefits of creating functions in your code?</h4>
+      <b>Answer</b>
+      <h5>Creating a function means you will be able to repeat the same task multiple times without writing all the code for it, instead, just calling the function.</h5>
+      <hr>
+    </div>
+    <div class="drop">
+    <b>Lesson 10</b>
+    <h4>Summary</h4>
+    <p>This lesson expands on functions and teaches us how we can make them, and how we can use them more effectively, like only using if for code that repeats multiple times to make our code simpler.</p>
+    <h4>Check for Understanding</h4>
+    <!-- Q&A -->
+      <b>AP Pseudocode: Functions</b>
+      <h4>What will be displayed after this code segment is run?</h4>
+      <h1>
+        <br>Day of the week = "Saturday"
+        <br>Day of the week = "Monday"
+        <br>If (Day of the week = "Saturday" OR Day of the week = "Sunday"){Weekend}
+        <br>Else{Weekday}
+        <br>Procedure Weekday{Display "School Day"}
+        <br>Procedure Weekend{Display "Day Off"}
+      </h1>
+      <b>Answer</b>
+      <h5>School Day</h5>
+      <hr>
+    </div>
+    <div class="drop">
+    <b>Lesson 11</b>
+    <h4>Summary</h4>
+    <p>This lesson makes us start from scracth and create functions so that we can create an app that displays quotes and changes based on the user's inputs.</p>
+    <img src="https://i.gyazo.com/e1745c2ce2424820e656b1448de70f11.png" width="750px">
+    </div>
+    <div class="drop">
+  <b>Lesson 12</b>
+  <h4>Summary</h4>
+  <p>This lesson summarizes all of what we learned and tells us to make an app using all of it. This includes variables, conditionals, if statements, and functions, along with the UI we learned in the design mode.</p>
+  <img src="https://i.gyazo.com/7a421a888bd10435ce95a41e672fc13d.png" width="750px">
+  </div>
+  </div>
+
+  <div id="left">
+    <div id="dn">
+      <b>Digital Notebook</b>
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSic9ub_EeFGYZAnuWVDIeZ_kbVwx-kcx_7S5h15wdcE0T-cK95YyhkDCrk0AD3T9nXaUVgtxRTxo2r/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="250px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+    <div id="prj">
+      <b>Unit Project</b> <br>
+      <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AzrRV36ik4EVdothj5NIbN28avZlG5PYU1gNWrX_5e4/embed"></iframe>
+    </div>
+  </div>
+</body>
+
+</html>
